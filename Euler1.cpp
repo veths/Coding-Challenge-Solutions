@@ -41,7 +41,6 @@ long long count2(long long N){
 	long long fives = N/5;
 	//we still need to subtract the intersection
 	long long fifteens = N/15;
-	cout << threes << " " << fives << " " << fifteens << endl;
 	//voila a O(1) formula
 	return 3*sumToN(threes)+5*sumToN(fives)-15*sumToN(fifteens);
 }
