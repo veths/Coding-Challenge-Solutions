@@ -1,2 +1,2 @@
-# ProjectEuler
-My various solutions to Project Euler problems. Solutions can be in languages C++, Java, or Python.
+# Coding Challenge Solutions
+My various solutions to coding problems. Solutions can be in languages C++, Java, JavaScript, or Python.
