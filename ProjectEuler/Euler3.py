@@ -18,14 +18,14 @@ def largestPfactor(n):
 		i+=1
 		if (n%i==0 and isPrime(i)):
 			maxp=i
+			#Prints prime factors of n
 			print(maxp)
 			while(n%maxp==0):
 				n=n//maxp
-	"""	
-	for i in range(1,n+1):
-		if (n%i==0 and isPrime(i)):
-			maxp = i
-			"""
+			#Test edge case so we dont have to check up to n if n is prime
+			if(isPrime(n) and n>maxp):
+				print(n)
+				return n
 	return maxp
 	
-print(largestPfactor(1))
+print(largestPfactor())
