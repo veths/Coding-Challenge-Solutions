@@ -1,3 +1,6 @@
+#This coding challenge asks to find the nth fibonacci number with 
+# n in the range (-1000000000,1000000000)
+
 def fib(n):
     fib0=0
     fib1=1
