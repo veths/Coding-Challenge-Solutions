@@ -1,7 +1,0 @@
-Project Details:
-Languages - Java, C++, Python, Go, JavaScript, PHP
-
-1. Make a resizable array in the given language
-2. Write min/max functions for language
-3. Write a sorting algorithm for that language (ALL DISTINCT)
-4. Generate random arrays and test code for them
